@@ -56,6 +56,7 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/" exact component={Login} />
         <Route path="/company/:company" exact component={Home} />
 
         <LoginRoute path="/login" exact component={Login} />
