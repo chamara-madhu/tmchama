@@ -9,9 +9,9 @@ import Chart from "../common/Chart";
 
 function HomeMain() {
   const [logsGroupByMonthly, setLogsGroupByMonthly] = useState([]);
-  const { company } = useParams();
   const queryParams = new URLSearchParams(window.location.search);
   const month = queryParams.get("m");
+  const { company } = useParams();
 
   useEffect(() => {
     axios
