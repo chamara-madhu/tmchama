@@ -1,0 +1,34 @@
+.client-nav-bar {
+  background: #000;
+  height: 70px;
+
+  .logo {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .nav-link {
+    display: inline;
+    color: #fff;
+    margin-left: 15px;
+    font-size: 14px;
+    vertical-align: middle;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .user-name {
+    margin-left: 15px;
+    font-size: 14px;
+    vertical-align: middle;
+    color: #fff;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+}

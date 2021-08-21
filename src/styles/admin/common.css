@@ -1,0 +1,140 @@
+.content-col {
+  width: calc(100% - 245px);
+  background: #fff;
+  padding-bottom: 40px;
+}
+
+.content-col .inner-content {
+  padding: 40px 15px 20px 15px;
+  /* width: fit-content;
+  min-width: 500px; */
+}
+
+.content-col .ad-form-sec {
+  max-width: 700px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-col .ad-form-sec .header {
+  background: #323d51;
+  color: rgb(255 255 255);
+  padding: 10px 15px;
+  margin: 0;
+}
+
+.content-col .info-desc {
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.content-col .ad-form-sec .content {
+  padding: 25px 15px 0 15px;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+@media (max-width: 768px) {
+  .content-col {
+    width: 100%;
+  }
+}
+
+.btn-save {
+  background: #28a745;
+  color: #fff;
+  padding: 5px 25px;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+/* table */
+.common-table thead {
+  background: #323d51;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.common-table thead th {
+  font-weight: 400;
+}
+
+.common-table > tbody > tr:hover {
+  background: rgb(245, 245, 245);
+}
+
+.common-table tr td i {
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+.common-table tr td .fa-trash-alt {
+  border: 1px solid #dc3545;
+  background: #fff;
+  color: #dc3545;
+}
+
+.common-table tr td .fa-trash-alt:hover {
+  background: #dc3545;
+  color: #fff;
+}
+.common-table tr td .fa-trash-disabled {
+  border: 1px solid #9e9e9e;
+  background: #fff;
+  color: #9e9e9e;
+}
+
+.common-table tr td .fa-trash-disabled:hover {
+  border: 1px solid #9e9e9e;
+  background: #fff;
+  color: #9e9e9e;
+  cursor: default;
+}
+
+.common-table tr td .fa-pencil-alt {
+  border: 1px solid #616161;
+  background: #fff;
+  color: #616161;
+}
+
+.common-table tr td .fa-pencil-alt:hover {
+  background: #616161;
+  color: #fff;
+}
+
+/* form */
+/* .content .sec-heading {
+  font-weight: 500;
+  padding-left: 3px;
+  margin-top: 12px;
+  margin-bottom: 8px;
+} */
+
+/* .content label {
+  font-size: 15px;
+  color: #333333;
+  font-weight: 300;
+  margin-bottom: 5px;
+} */
+
+/* tooltip */
+.tooltip-cus {
+  font-weight: 500;
+  opacity: 1 !important;
+}
+
+/* notification */
+.notification {
+  opacity: 1 !important;
+  margin-top: 130px !important;
+}
+
+.notification-success {
+  background-color: #35c835 !important;
+}

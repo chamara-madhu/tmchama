@@ -1,0 +1,38 @@
+.sidebar-col {
+  width: 250px;
+  height: calc(100vh - 70px);
+  border-right: 1px solid #ccc;
+}
+
+.log-tasks-col {
+  width: 50%;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+}
+
+.analytics-col {
+  width: calc(50% - 250px);
+  padding: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .log-tasks-col {
+    width: calc(100% - 250px);
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar-col {
+    height: fit-content;
+  }
+
+  .analytics-col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .log-tasks-col {
+    width: calc(100%);
+  }
+}

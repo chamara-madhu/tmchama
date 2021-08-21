@@ -1,0 +1,13 @@
+@import "config";
+@import "utilities";
+@import "../components/visitor/navbar/_navbar.scss";
+@import "../components/visitor/login/_login.scss";
+
+// admin
+@import "../components/admin/sidebar/_sidebar.scss";
+@import "../components/admin/breadcrumb/_breadcrumb.scss";
+
+// visitor
+@import "../components/visitor/home/_home.scss";
+@import "../components/visitor/common/_listOfMonths.scss";
+@import "../components/visitor/common/_listOfTasks.scss";

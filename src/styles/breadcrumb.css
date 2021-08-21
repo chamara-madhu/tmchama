@@ -1,0 +1,18 @@
+.cus-breadcrumb {
+  position: sticky;
+  top: 65px;
+  z-index: 1;
+}
+
+.cus-breadcrumb .breadcrumb {
+  border-radius: 0;
+  background: #f8f9fa;
+}
+
+.cus-breadcrumb .breadcrumb > li + li:before {
+  content: ">";
+}
+
+.cus-breadcrumb a {
+  color: #000;
+}

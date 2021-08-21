@@ -1,0 +1,81 @@
+.accordion {
+  .card-header {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+
+    &:after {
+      content: "";
+      border: 2px solid #000;
+      border-width: 0 2px 2px 0;
+      display: inline-block;
+      padding: 2.5px;
+      margin-right: 12px;
+      position: absolute;
+      top: 15px;
+      right: 0;
+      transition: 0.3s;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+.time-log-table {
+  font-size: 12px;
+  width: 100%;
+
+  tr {
+    border-bottom: 1px solid #ccc;
+
+    td {
+      padding: 8px 10px;
+    }
+  }
+
+  .time-range {
+    font-weight: 500;
+    margin-right: 5px;
+  }
+
+  .project-label {
+    background-color: #f1c607;
+    padding: 0 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    margin-bottom: 0;
+    font-weight: 500;
+    line-height: 17px;
+  }
+
+  .task-desc {
+    white-space: pre-line;
+    overflow-wrap: break-word;
+  }
+}
+
+.accordion .collapsed:after {
+  content: "";
+  border: 2px solid #000;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2.5px;
+  margin-right: 12px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 15px;
+  right: 0;
+  transition: 0.3s;
+}
+
+.cus-badge {
+  position: absolute !important;
+  top: 9px !important;
+  right: 33px;
+  line-height: 21px;
+  padding: 0 10px;
+}
+
+.highcharts-credits {
+  display: none;
+}
