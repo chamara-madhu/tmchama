@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tmchama/static/css/main.589d35e2.chunk.css",
+    "main.js": "/tmchama/static/js/main.1bfcb1bb.chunk.js",
+    "main.js.map": "/tmchama/static/js/main.1bfcb1bb.chunk.js.map",
+    "runtime-main.js": "/tmchama/static/js/runtime-main.d3ebbe3a.js",
+    "runtime-main.js.map": "/tmchama/static/js/runtime-main.d3ebbe3a.js.map",
+    "static/css/2.14f3cd7d.chunk.css": "/tmchama/static/css/2.14f3cd7d.chunk.css",
+    "static/js/2.359d237d.chunk.js": "/tmchama/static/js/2.359d237d.chunk.js",
+    "static/js/2.359d237d.chunk.js.map": "/tmchama/static/js/2.359d237d.chunk.js.map",
+    "index.html": "/tmchama/index.html",
+    "precache-manifest.87e5c570f3eee4cb746c6ef6477cf2ee.js": "/tmchama/precache-manifest.87e5c570f3eee4cb746c6ef6477cf2ee.js",
+    "service-worker.js": "/tmchama/service-worker.js",
+    "static/css/2.14f3cd7d.chunk.css.map": "/tmchama/static/css/2.14f3cd7d.chunk.css.map",
+    "static/css/main.589d35e2.chunk.css.map": "/tmchama/static/css/main.589d35e2.chunk.css.map",
+    "static/js/2.359d237d.chunk.js.LICENSE.txt": "/tmchama/static/js/2.359d237d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3ebbe3a.js",
+    "static/css/2.14f3cd7d.chunk.css",
+    "static/js/2.359d237d.chunk.js",
+    "static/css/main.589d35e2.chunk.css",
+    "static/js/main.1bfcb1bb.chunk.js"
+  ]
+}
