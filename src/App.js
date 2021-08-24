@@ -18,7 +18,7 @@ import ManageTimeLogs from "./pages/admin/ManageTimeLogs";
 
 import { auth_token } from "./auth/auth";
 
-// create a private route for admin
+// create a admin route for me
 const AdminRoute = ({ component: Component, ...rest }) => (
   <Route
     {...rest}
@@ -34,7 +34,7 @@ const AdminRoute = ({ component: Component, ...rest }) => (
   />
 );
 
-// create a private route for admin
+// create a login route for admin
 const LoginRoute = ({ component: Component, ...rest }) => (
   <Route
     {...rest}
