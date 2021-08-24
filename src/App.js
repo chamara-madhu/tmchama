@@ -6,7 +6,7 @@ import {
   Redirect,
 } from "react-router-dom";
 
-// import Home from "./pages/visitors/Home";
+import Home from "./pages/visitors/Home";
 import Login from "./pages/visitors/Login";
 
 // admin
@@ -57,7 +57,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Login} />
-        {/* <Route path="/company/:company" exact component={Home} /> */}
+        <Route path="/company/:company" exact component={Home} />
 
         <LoginRoute path="/login" exact component={Login} />
 
@@ -73,7 +73,6 @@ function App() {
           exact
           component={ManageTimeLogs}
         />
-        {/* <AdminRoute path="/admin/manage-types" exact component={ManageTypes} /> */}
       </Switch>
     </Router>
   );
