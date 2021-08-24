@@ -10,9 +10,9 @@ class Navbar extends Component {
     return (
       <React.Fragment>
         <nav className="navbar sticky-top client-nav-bar">
-          <Link className="text-white" to="/">
+          <span className="text-white">
             <img src={Logo} className="logo" alt="Logo" /> &nbsp; Time Log
-          </Link>
+          </span>
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               {auth_token() ? (

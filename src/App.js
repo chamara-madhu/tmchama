@@ -6,8 +6,9 @@ import {
   Redirect,
 } from "react-router-dom";
 
-// import Home from "./pages/visitors/Home";
+import Home from "./pages/visitors/Home";
 import Login from "./pages/visitors/Login";
+import PageNotFound from "./pages/visitors/PageNotFound";
 
 // admin
 import AddTimeLog from "./pages/admin/AddTimeLog";
@@ -57,7 +58,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Login} />
-        {/* <Route path="/company/:company" exact component={Home} /> */}
+        <Route path="/company/:company" exact component={Home} />
 
         <LoginRoute path="/login" exact component={Login} />
 
@@ -73,6 +74,8 @@ function App() {
           exact
           component={ManageTimeLogs}
         />
+        <Route path="*404" exact component={PageNotFound} />
+        <Redirect to="404" />
       </Switch>
     </Router>
   );

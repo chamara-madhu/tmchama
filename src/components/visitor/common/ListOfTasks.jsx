@@ -30,7 +30,7 @@ const ListOfTasks = (props) => {
           <div className="card" key={i}>
             <div
               id={`heading${i + 1}`}
-              className="card-header btn btn-link btn-block text-left p-2"
+              className="card-header collapsed btn btn-link btn-block text-left p-2"
               type="button"
               data-toggle="collapse"
               data-target={`#collapse${i + 1}`}
@@ -69,10 +69,14 @@ const ListOfTasks = (props) => {
                               {el.projectId.project}
                             </label>
                           </p>
-                          {el.description}
+                          <p className="text-muted mb-0">{el.description}</p>
                         </td>
-                        <td width="80" align="right">
-                          {getTimeDiff(el.from, el.to).toFixed(2)}
+                        <td
+                          width="80"
+                          align="right"
+                          style={{ fontWeight: 500 }}
+                        >
+                          {getTimeDiff(el.from, el.to).toFixed(2)} hrs
                         </td>
                       </tr>
                     ))}
